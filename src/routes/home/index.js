@@ -1,7 +1,7 @@
 const express=require("express");
 const router = express.Router();
 const ctrl=require("./home.ctrl");
-router.get("/",ctrl.output.index);
+router.get("/",ctrl.output.test);
 
 router.get("/test",ctrl.output.test);
 
